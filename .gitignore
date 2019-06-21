@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiles and temp directories
+/dist
+/tmp
+test/artifacts
+salesforce.schema
+
+# Dependency directories
+node_modules
+Referenced Packages/
+
+# Cache directories
+.npm
+.vscode
+.DS_Store
+.classpath
+.sfdx
+.project
+
