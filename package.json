@@ -1,0 +1,38 @@
+{
+  "name": "rx-manager-lightning-platform",
+  "version": "1.0.0",
+  "description": "Rx Manager, for Lightning Platform",
+  "scripts": {
+    "build": "sfdx shane:org:delete; ./orgInit.sh",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reset": "echo \"sfdx force:apex:execute -f scripts/delete.cls && sfdx force:apex:execute -f scripts/init.cls\""
+  },
+  "nodemonConfig": {
+    "watch": [
+      "force-app"
+    ],
+    "exec": "sfdx force:source:push",
+    "ext": "cls,xml,json,js,trigger,cmp,css,design,svg,html",
+    "delay": "2500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadevanssf/rx-manager-lightning-platform.git"
+  },
+  "keywords": [
+    "Salesforce",
+    "Lighting Platform",
+    "Heroku",
+    "Alexa",
+    "Violet"
+  ],
+  "author": "Chad Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chadevanssf/rx-manager-lightning-platform/issues"
+  },
+  "homepage": "https://github.com/chadevanssf/rx-manager-lightning-platform#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

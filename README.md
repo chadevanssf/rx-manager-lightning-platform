@@ -11,11 +11,8 @@ sfdx shane:data:tree:import -p data/Contact-Prescription__c-plan.json -d data/
 sfdx force:user:password:generate
 sfdx force:user:display
 
-
-
-sfdx shane:heroku:repo:deploy -g chadevanssf -r rx-manager-heroku-violet -t hlsplatform
-
 export HEROKU_API_KEY=??? //from your heroku account
+sfdx shane:heroku:repo:deploy -g chadevanssf -r rx-manager-heroku-violet -t hlsplatform
 
 ## Resources
 
