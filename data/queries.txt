@@ -1,0 +1,1 @@
+sfdx force:data:tree:export -q "select firstname, lastname, Phone, HomePhone, MobilePhone, Email, (select Rx_Name__c, Filled_Date__c, Dosages__c from Prescriptions__r) from Contact Order by lastname, firstname" --apiversion 45.0 -d data -p

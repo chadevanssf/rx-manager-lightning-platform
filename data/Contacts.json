@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "FirstName": "Test",
+            "LastName": "User",
+            "Phone": "123-456-7890"
+        }
+    ]
+}

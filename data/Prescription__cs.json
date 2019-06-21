@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Prescription__c",
+                "referenceId": "Prescription__cRef1"
+            },
+            "Rx_Name__c": "Desloratadine",
+            "Filled_Date__c": "2019-06-17",
+            "Dosages__c": 12,
+            "Contact__c": "@ContactRef1"
+        }
+    ]
+}
